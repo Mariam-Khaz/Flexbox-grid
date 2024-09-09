@@ -1,0 +1,160 @@
+.row-one {
+ display: flex;
+}
+
+.box-one, .box-two {
+  background-color: #F48C06;
+  width: 468px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.box-one1, .box-one2, .box-one3 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 78px;
+  margin-left: 20px;
+  
+}
+
+.box-two{
+  background-color: #F48C06;
+  width: 468px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-two1, .box-two2, .box-two3 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 120px;
+  margin: 10px;
+}
+
+
+.row-two {
+  display: flex; 
+  margin-bottom: 20px;
+}
+
+.box-three {
+  background-color: #F48C06;
+  width: 468px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+
+.box-three1, .box-three2, .box-three3 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 78px;
+  margin-right: 20px; 
+}
+
+.box-four {
+    background-color: #F48C06;
+    width: 468px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.box-four1 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 78px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.box-four2 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 78px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.box-four3 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 78px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+
+.row-three {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.box-five, .box-six {
+  background-color: #F48C06;
+  width: 468px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.box-five1 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 120px;
+  margin-left: 40px;
+  padding: 5px;
+}
+
+.box-five2 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 64px;
+  margin-left: 60px;
+  margin-right: 20px;
+  padding-left: 5px;
+}
+
+.box-five3 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 120px;
+  margin-left: 40px;
+  padding: 5px;
+}
+
+.box-six1 {
+  display: flex;
+  background-color: #9D0208;
+  width: 78px;
+  height: 78px;
+  margin-left: 60px;
+  margin-right: 20px;
+
+}
+
+.box-six2 {
+  display: flex;
+  background-color: #9D0208;
+  width: 156px;
+  height: 78px;
+}
+
+.box-six3 {
+  background-color: #9D0208;
+  width: 78px;
+  height: 78px;
+  margin-right: 60px;
+  margin-left: 20px;
+}
