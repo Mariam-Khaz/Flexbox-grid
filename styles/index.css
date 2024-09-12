@@ -13,26 +13,30 @@
    margin-bottom: 20px;
  }
 
- .box-one1, .box-one2, .box-one3 {
+ .box-one {
+  justify-content: flex-start;
+  /* align-items: flex-end; */
+}
+
+.box-one1, .box-one2, .box-one3 {
    background-color: #9D0208;
    width: 78px;
    height: 78px;
    margin-left: 20px;
-   justify-content: flex-start;
-   align-items: flex-end;
+
  }
 
  .box-two {
   justify-content: center;
+  align-items: stretch;
  }
 
  .box-two1, .box-two2, .box-two3 {
    background-color: #9D0208;
    width: 78px;
-   height: 120px;
    min-height: 78px;
-   margin: 10px;
-   align-items: stretch;
+   margin: 15px;
+
  }
 
  .box-three {
@@ -78,7 +82,7 @@
  }
 
  .box-five {
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   text-align:center;
 
@@ -106,7 +110,8 @@
 
 .box-six {
    justify-content: space-around;
-   align-items:center;
+   align-items: center;
+   
 }
 
  .box-six1 {
